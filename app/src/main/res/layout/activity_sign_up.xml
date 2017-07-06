@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.harsh.aide.SignUpActivity">
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPersonName" android:ems="10" android:id="@+id/etfname"
+        android:hint="First Name" />
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPersonName" android:ems="10" android:id="@+id/etlname"
+        android:hint="Last name" />
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPersonName" android:ems="10" android:id="@+id/etemail"
+        android:hint="Email" />
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPersonName" android:ems="10" android:id="@+id/etpwd"
+        android:hint="Password" />
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPersonName" android:ems="10" android:id="@+id/etcpwd"
+        android:hint="Confirm Password" />
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:text="Cancel" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/btncancel"/>
+        <Button android:text="Signup" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/btnsignup1"/>
+    </TableRow>
+
+</LinearLayout>
